@@ -1,0 +1,57 @@
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.c-1{
+   background-color: blueviolet; 
+   position: static;
+   top: 200px;
+   left: 200px;
+}
+
+.c-2{
+    background-color: black; 
+    position: relative; /* Relativo a su punto inicial */
+   top: 200px;
+   left: 200px;
+ }
+
+ .c-3{
+    background-color: green; 
+    position: absolute; /* Tiene la propidad de ponerse donde quiera */
+    top: 0px;
+    left: 0px;
+ }
+
+ .c-4{
+    background-color: yellowgreen; 
+    position: fixed; /* Parecido al absolute, pero si haces scroll general te sigue */
+    top: 20px;
+    left: 20px;
+    
+ }
+
+ .c-5{
+    background-color: red; 
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+ }
+
+ .c-6{
+    display: block;
+    background-color: skyblue; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    left: 200px;
+    height: 100px;
+ }
+
+ .c-7{
+     display: block;
+     background-color: beige;
+     height: 1000px;
+ }

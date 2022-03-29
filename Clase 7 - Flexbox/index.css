@@ -1,0 +1,33 @@
+.contenedor{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.cuadrado{
+    height: 200px;
+    width: 200px;
+}
+
+.c-1{
+    background-color: brown
+}
+.c-2{
+    background-color:blueviolet
+}
+.c-3{
+    background-color: coral
+}
+.c-4{
+    background-color:yellow
+}
+.c-5{
+    background-color:green
+}
+.c-6{
+    background-color: blue;
+}
