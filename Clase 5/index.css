@@ -1,0 +1,110 @@
+/* De esta forma cambiamos la fuente para todo */
+* {
+    font-family: "Roboto";
+    font-weight: 700 ;
+    font-style: black;
+}
+/* Descargando la fuente */
+@font-face {
+    font-family: "Mati";
+    src: url(./Fuentes/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+h2{
+    font-family: "Mati";
+}
+
+p{
+    font-family: "Hurricane";
+}
+/* De esta forma le diriamos particularmente a que  
+        tipo de texto cambiarle la fuente */
+/* p {
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-family: "Roboto";
+} */
+
+
+
+/* En orden de jerarquias viene  la etiqueta (h3)
+     por defecto, el ID (no se puede repetir
+         y despues la clase */
+
+/* Se puede hacer referencia al body tambien para cambiar eg. fondo,
+                     aunque no es muy usual */
+
+body{
+    background-color: rgb(172, 215, 228);
+}
+
+/* Aplicando con etiqueta, que no necesita nada para expresarse */
+h3{
+    color: blue;
+}
+
+.Subtitulo {
+    color: red;
+}
+/* Aplicando con clase, que siempre es con un "." */
+.Subtitulo2 {
+    color: purple;
+}
+/* Aplicando ID, que siempre se aplica con un # */
+#mejorsubtitulo {
+    color: green;
+}
+/* Expresado en pixeles, que es unidad de medida absoluta */
+.Cuadrado {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+/* Expresado en porcentajes, aunque al cuadrado no le va a gustar, 
+                y es unidad de medida relativa */
+.Cuadrado2 {
+    height: 20%;
+    width: 20%;
+    background-color: rgb(133, 109, 109);
+}
+
+.Rick{
+    height: 500px;
+    width: 500px;
+    background-image: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/07/rick-morty-.jpg?w=1560&ssl=1);
+    background-image: url(./Imagenes/Rick\ and\ Morthy.jpeg);/* Es otra forma de poner imagenes descargando al imagen */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Morty{ /* Es otra forma de poner imagenes descargando al imagen */
+    height: 500px;
+    width: 500px;
+    background-image: url(./Imagenes/Rick\ and\ Morthy.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Viendo opciones de ingresar colores */
+.Parrafo1{
+    color: yellow;
+}
+
+.Parrafo2{ /* Color exadecimal */
+    color:#86c162 ;
+}
+
+.Parrafo3{ /* Acá elegis cuanto de rojo, verde y azul le pones */
+    color:rgb(135,44,88) ;
+}
+
+.Parrafo4{ /* Acá elegis cuanto de rojo, verde y azul le pones
+                            y además podes decir opacidad */
+    color: rgba(135, 44, 88, 0.4);
+}
+
+
+
