@@ -1,0 +1,92 @@
+body{
+    background-color: #3B2B99;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Esto te centra horizontalmente */
+    align-items: center; /* Esto te centra verticalmente */
+    width: 100%; /* Este ancho y alto es 100% por que estamos hablando del recuadro */
+    height: 100%;
+
+}
+
+.recuadro-login{ /* Este recuadro es un div adentro del div del container */
+    width: 50%;
+    height: 60%;
+    background-color: #F24052;
+    border-radius: 20px; /* Para redondear el recuadro */
+    display: flex;
+}
+
+.container-form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-input{
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+label{
+    color: white;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+
+
+input{
+    width: 70%;
+    border-radius: 20px;
+    height: 40px;
+    border: none; /* Sacarle los bordes de color negro */
+    padding: 0px 20px; /* espacio dentro del imput */
+}
+
+button{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #3A2995;
+    color: white;
+    border-radius: 25px ;
+    border: none;
+    height: 45px;
+    width: 70%;
+  
+}
+
+
+.container-img{
+    
+    width: 50%;
+    background-image: url(./Imagenes/309256231011211.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+} 
+
