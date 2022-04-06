@@ -1,0 +1,54 @@
+.change{
+    display: none;
+}
+
+li{
+    list-style: none; /* Sacarle el estilo de viñeta */
+    display: inline-block;
+    margin: 0px 10px; /* El primer termino es arriba y abajo y el segundo los costados */
+}
+
+a{
+    text-decoration: none; /* Sacarle el estilo subrayado y azul */
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+ul{
+    display: inline-block; 
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.icon-menu{
+    font-size: 40px;
+    display: none!Important; /* Cuando pones !important, no le da bola a otra propiedad */
+}
+
+@media (max-width: 700px){
+    ul{
+        display: none;
+    }
+    li{
+        width: 100%;
+        text-align: center;
+    }
+    .icon-menu{
+        display: inline-block!Important;
+    }
+
+    .change:checked ~ ul {
+        display: inline-block!Important;
+    }
+
+    
+}

@@ -1,0 +1,21 @@
+.Cuadrado{
+    height: 200px;
+    width: 200px;
+    background: rgb(23,11,227);
+    background: linear-gradient(90deg, rgba(23,11,227,1) 0%, rgba(71,208,48,1) 61%, rgba(0,212,255,1) 100%);
+}
+
+@media (max-width: 600px){
+    .Cuadrado{
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+    .Cuadrado{
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+}
+
