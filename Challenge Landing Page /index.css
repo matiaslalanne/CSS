@@ -9,6 +9,13 @@
  */
 body {
     background: rgb(238, 235, 221);
+    margin: 0;
+    padding: 0;
+}
+
+.prueba{
+    height: 100vh;
+    width: 100%;
 }
 
 a {
@@ -65,7 +72,7 @@ a:hover {
 .Seccion {
    
     width: 100%;
-    height: 60%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,15 +104,20 @@ a:hover {
 .SN{
     color:darksalmon;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform:uppercase;
     text-decoration:aqua;
 }
 
+.SN-H4{
+    color: black;
+    font-size: 25px;
+}
+
 
 .Imagen{
-    margin: 5px 0px;
+    margin: 5px 10px;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -118,6 +130,7 @@ img{
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
+  
 
 }
 
@@ -147,22 +160,110 @@ img{
 transform: rotateY(180deg);
 transform-style: preserve-3d;}
 
-.Seccion2{
-    width: 50%;
+.principal{
+    width: 100%;
+    height: 200vh;
+    background-color:rgb(238, 235, 221);
+    background-color: red;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ventajas{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(238, 235, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    justify-items: center;
-    position: ;
+    width: 100%;
+    height: 10%;
+   
+}
+.titulo-ventajas{
+    color: darksalmon ;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+h3{
+    color: darksalmon ;
+}
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.beneficio1{
+    justify-content: center;
+    text-align: center;
     
+}
+.beneficio2{
+    justify-content: center;
+    text-align: center;
+}
+.beneficio3{
+    justify-content: center;
+    text-align: center;
+}
+
+/* ACA ARRANCA LA OTRA SECTION */
+
+.trabajo{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(238, 235, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-trabajo{
+    color: darksalmon ;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.trabajo1{
+    justify-content: center;
+    text-align: center;
+    
+}
+.trabajo2{
+    justify-content: center;
+    text-align: center;
+}
+.trabajo3{
+    justify-content: center;
+    text-align: center;
+}
+
+/*  ACA TERMINA LA SECTION */
+i{
+    font-size: 100px;
+    opacity: 0.3;
     
 }
 
-.H2SN{
-    color:darksalmon;
-    font-weight: normal;
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform:uppercase;
-    text-decoration:aqua;
+i:hover{
+    filter: opacity(.5);
+    cursor:pointer;
 }

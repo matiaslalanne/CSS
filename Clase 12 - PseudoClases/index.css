@@ -1,0 +1,38 @@
+h2:first-child{
+    background-color: blueviolet;
+    color: white;
+}
+
+h2:last-child{
+    background-color: green;
+    color: red;
+}
+
+h3:last-child{
+    background-color: coral;
+    color: white;
+}
+
+h4:nth-child(odd){ /* a los elementos impares */
+    background-color: aqua;
+}
+
+h4:nth-child(even){ /* a los elementos pares */
+    background-color: red;
+}
+
+h5:nth-child(5){ /* aplica al 5 elemento */
+    background-color: forestgreen;
+}
+h5:nth-child(3n){ /* 3n es cada 3 elementos */
+    background-color: yellow;
+}
+
+input:focus{
+    background-color: blue;
+    color: white
+}
+
+a:hover{
+    background-color: chartreuse;
+}

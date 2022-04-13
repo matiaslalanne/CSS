@@ -1,0 +1,42 @@
+.texto::first-line{
+    background-color: blue;
+}
+.texto::first-letter{
+    font-size: 3em;
+    color: red;
+}
+
+h2::before{
+    content: "owo ";
+    color: blue;
+    font-size: 3em;
+}
+h2::after{
+    content: " Uwu";
+    color: red;
+    font-size: 3em;
+}
+
+
+span{
+    text-decoration: underline;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+span:hover::after{
+    /* content: "ESTE ES MI TOOLTIP PIOLA"; */ /* Este seria tin atributo */
+    content: attr(cosme);
+    position: absolute;
+    left: 0;
+    top: 24px;
+    border: 1px #aaaaaa solid;
+    background-color: #ffffcc;
+    padding: 12px;
+    font-size: 14px;
+    z-index: 1; /* Permite superponer un elemento sobre otro */
+    border-radius: 10px;
+    color: #000000;
+    
+}
