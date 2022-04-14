@@ -120,6 +120,18 @@ li{
     font-weight: 300;
 }
 
+.li-nav:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+
+.atrapar:hover{
+    color: blue;
+    cursor: pointer; 
+    background-color: white;  
+}
+
 @media (min-width:1024px) and (max-width: 1440px)  {
     .atrapar{
         font-size: 0.8rem;
